@@ -11,7 +11,7 @@ for(let i of gamewl){
 for(let i of wl){
 	if(i=="")continue;
 	if(i=="==^^Maintainers^^=="){
-		if(config.under_maintaince)break;
+		if(config.under_maintenance)break;
 		continue;
 	}
 	if(wledusers.hasOwnProperty(i)){
